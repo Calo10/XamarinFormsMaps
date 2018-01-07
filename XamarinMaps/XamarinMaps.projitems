@@ -9,7 +9,6 @@
     <Import_RootNamespace>XamarinMaps</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Models\Item.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -17,6 +16,9 @@
       <DependentUpon>MapView.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MapViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Behaviors\MapBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Behaviors\BindableBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Location.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
@@ -28,5 +30,6 @@
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Behaviors\" />
   </ItemGroup>
 </Project>

@@ -1,16 +1,21 @@
 ﻿<Properties StartupConfiguration="{E52A95B7-1F0F-4C0C-A48B-989E85A672F2}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinMaps.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.ItemProperties.XamarinMaps.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EB1D6CD1-541E-42F4-95FF-41A29A4C016D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.XamarinMaps.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/obj/iPhoneSimulator/Debug/XamarinMaps.iOS.Views.MapView.xaml.g.cs">
     <Files>
       <File FileName="XamarinMaps/App.xaml.cs" Line="18" Column="1" />
       <File FileName="XamarinMaps/App.xaml" Line="19" Column="1" />
-      <File FileName="XamarinMaps/Views/MapView.xaml" Line="6" Column="1" />
-      <File FileName="XamarinMaps/Views/MapView.xaml.cs" Line="16" Column="1" />
+      <File FileName="XamarinMaps/Views/MapView.xaml" Line="15" Column="20" />
+      <File FileName="XamarinMaps/Views/MapView.xaml.cs" Line="6" Column="11" />
       <File FileName="XamarinMaps/ViewModels/MapViewModel.cs" Line="22" Column="1" />
       <File FileName="iOS/AppDelegate.cs" Line="25" Column="1" />
       <File FileName="Droid/MainActivity.cs" Line="26" Column="50" />
+      <File FileName="XamarinMaps/Views/Behaviors/MapBehavior.cs" Line="21" Column="58" />
+      <File FileName="XamarinMaps/Views/Behaviors/BindableBehavior.cs" Line="4" Column="38" />
+      <File FileName="XamarinMaps/Models/Location.cs" Line="5" Column="26" />
+      <File FileName="iOS/obj/iPhoneSimulator/Debug/XamarinMaps.iOS.Views.MapView.xaml.g.cs" Line="23" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

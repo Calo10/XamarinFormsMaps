@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using XamarinMaps.ViewModels;
 
 namespace XamarinMaps.Views
 {
@@ -10,6 +11,8 @@ namespace XamarinMaps.Views
         public MapView()
         {
             InitializeComponent();
+
+            BindingContext = new MapViewModel();
         }
     }
 }
